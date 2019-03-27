@@ -16,5 +16,9 @@
   },
   "dependencies": {
     "pigpio": "^1.2.2"
+  },
+  "scripts": {
+    "build": "docker build -t voltmeter-clock .",
+    "start": "docker run --privileged voltmeter-clock"
   }
 }

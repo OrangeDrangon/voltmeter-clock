@@ -1,7 +1,6 @@
 // Adds support for source maps on exception
 import 'source-map-support/register';
 
-// Import the clock class
 import { Clock } from './clock';
 
 const clock = new Clock(17, 27, 22);

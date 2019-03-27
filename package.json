@@ -1,0 +1,20 @@
+{
+  "name": "voltmeter-clock",
+  "version": "1.0.0",
+  "description": "The code that drives the analog clock using the Raspberry Pi and Docker",
+  "main": "dist/index.js",
+  "repository": "https://github.com/OrangeDrangon/voltmeter-clock.git",
+  "author": "Kyle Rosenberg <kyle@ekrosenberg.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^11.10.5",
+    "@types/pigpio": "^1.2.1",
+    "source-map-support": "^0.5.10",
+    "tslint": "^5.13.1",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "pigpio": "^1.2.2"
+  }
+}

@@ -63,6 +63,6 @@ export class Clock {
       throw new Error('Interval already running! Please clear before setting an interval!'
         + ` Interval ID: ${this.intervalId}`);
     }
-    this.intervalId = setInterval(this.interval, timeout);
+    this.intervalId = setInterval(() => { this.interval(); }, timeout);
   }
 }

@@ -5,7 +5,7 @@ WORKDIR /var/usr/app
 RUN apt-get update && apt-get install -yq --no-install-recommends pigpio python make g++
 
 ADD package.json .
-ADD yarn.lock .
+# ADD yarn.lock .
 
 RUN yarn install
 
